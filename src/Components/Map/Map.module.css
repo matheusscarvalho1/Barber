@@ -1,0 +1,79 @@
+.location {
+  background: url("../../../public/images/bg-location.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.location .head {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  background-color: var(--color-baloon);
+  padding: 60px;
+}
+
+.location .head .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.location .head .info .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-primary);
+  border-radius: 100%;
+  padding: 10px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.location .head .info .text span {
+  display: block;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.location .head .info .text span:first-child {
+  color: silver;
+}
+
+.location .head .info .text span:last-child {
+  color: white;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 850px) {
+  .location {
+    max-width: 100%;
+  }
+
+  .location .head {
+    padding: 50px;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+  }
+
+  .location .head .info {
+    justify-content: center;
+  }
+  .location .head .info .text span {
+    font-size: 11px;
+  }
+
+  .location .head .info .icon {
+    width: 25px;
+  }
+
+  .iconImg {
+    width: 20px;
+    height: 10px;
+  }
+}
