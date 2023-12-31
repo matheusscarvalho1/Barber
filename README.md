@@ -16,6 +16,7 @@ Também é necessário uma IDE, recomendo o [VSCode](https://code.visualstudio.c
 ## Tecnologias utilizadas no projeto
 
 - [ReactJs na versão 18.2.0](https://github.com/facebook/react)
+- [CSS Modules](https://github.com/css-modules/css-modules)
 
 ## Como rodar o projeto
 
